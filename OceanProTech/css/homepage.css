@@ -1,0 +1,442 @@
+*{
+    font-family: 'Audiowide', cursive;
+}
+
+.homepage-icons{
+    background-color: #006B98;
+    
+}
+
+.homepage-img-oceanprotech {
+    display: flex;
+    width: 100%; 
+    background-size: auto;
+    background-image: center;
+    background-repeat: no-repeat;
+}
+
+.container-bem-vindo{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-bem-vindo{
+    background: linear-gradient(to right, #006B98, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+    font-size: 25px;
+}
+
+.texto-azul{
+    color: #017CAF;
+    font-size: 15px;
+    text-align: center;
+}
+
+.texto-branco{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nosso-impacto{
+    background-image: linear-gradient(to bottom, #017CAF, #003449);
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;  
+    flex-direction: row;
+    gap: 10px; 
+    height: 700px;
+}
+
+.titulo-nosso-impacto {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.nosso-impacto section {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 20%;
+    box-sizing: border-box; 
+    height: 420px;
+}
+.nosso-impacto section:not(:last-child) {
+    margin-right: 0;
+}
+
+.nosso-impacto img {
+    width: 100%; 
+    height: 200px;
+}
+
+.boia {
+    margin-left: 0; 
+}
+
+.navio {
+    margin-left: 40%; 
+}
+
+.estacoes {
+    margin-left: 70%; 
+}
+
+.img-impactos {
+    display: flex;
+    position: relative;
+    width: 243px;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.titulo-impactos {
+    color: #003449;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: auto;
+    margin-top: 10px;
+}
+
+.texto-impactos {
+    color: #003449;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.titulo-problemas {
+    background: linear-gradient(to right, #006B98, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.problemas-icons{
+    background-color: #017CAF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center; 
+}
+
+.icons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 19%; 
+    box-sizing: border-box; 
+    text-align: center; 
+    padding-top: 20px ;
+}
+
+.titulo-icons {
+    color: white;
+    width: 200px;
+    font-size: 16px;
+}
+
+.homepage-icons{
+    background-color: #017CAF;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+
+.home-problemas{
+    display: flex;
+    flex-direction: column;  
+    padding: 5px;
+}
+
+.elementos-problemas{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+}
+
+.container-problemas{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid #006B98;
+}
+
+.titulos-problemas {
+    color: #003449;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.textos-problemas {
+    color: #003449;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 5px;;
+    text-align: left;
+}
+
+.img-problemas {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+}
+
+.titulo-objetivo {
+    background: linear-gradient(to right, #006B98, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+#texto-objetivo {
+    color: #003449;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+ 
+.homepage-img-objetivo {
+    width: 100%;
+    height: 500px;
+}
+
+.acesso-comunidade{
+    background-color: #0278AA;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-acesso-comunidade {
+    height: 80px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Queries */
+
+/* Telas pequenas (smartphones, menos de 600px) */
+@media (max-width: 600px) {
+
+    .container-homepage {
+        width: 100%;
+    }
+    .container-bem-vindo {
+        padding: 20px;
+    }
+
+    .titulo-bem-vindo {
+        font-size: 18px;
+    }
+
+    .texto-azul, .texto-branco {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .nosso-impacto {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosso-impacto section {
+        width: auto;
+        align-items: center;
+        height: auto;
+        padding: 5px;
+    }
+
+    .texto-impactos {
+        font-size: 12px;
+    }
+
+    .titulo-nosso-impacto {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+
+    .titulo-problemas {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .icons {
+        width: 40%;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .homepage-icons {
+        width: 60px;
+        height: 60px;
+    }
+
+    .titulo-icons {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .container-problemas {
+        position: relative;
+        flex-direction: column;
+        height: 500px;
+    }
+    .elementos-problemas {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .img-problemas {
+        height: auto;
+        width: 95%;
+        padding: 10px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .textos-problemas {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .titulo-objetivo {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    #texto-objetivo {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .homepage-img-objetivo{
+        width: 100%;
+        height: auto;
+    }
+
+    .acesso-comunidade {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container-acesso-comunidade {
+        padding: 20px;
+    }
+}
+
+/* Telas médias (tablets, de 600px a 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .container-bem-vindo {
+        padding: 30px;
+    }
+
+    .titulo-bem-vindo {
+        font-size: 22px;
+    }
+
+    .texto-azul, .texto-branco {
+        font-size: 14px;
+    }
+
+    .nosso-impacto {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+        align-items: centers;
+    }
+
+    .nosso-impacto section {
+        width: 45%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .titulo-nosso-impacto {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .titulo-problemas {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .icons {
+        width: 30%;
+        padding: 15px;
+    }
+
+    .titulo-icons {
+        font-size: 14px;
+    }
+
+    .container-problemas {
+        flex-direction: column;
+        position: relative;
+        height: 480px;
+    }
+
+    .img-problemas {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+    .titulo-objetivo {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    #texto-objetivo {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .homepage-img-objetivo{
+        width: 100%;
+        height: auto;
+    }
+
+    .acesso-comunidade {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .container-acesso-comunidade {
+        padding: 30px;
+    }
+}

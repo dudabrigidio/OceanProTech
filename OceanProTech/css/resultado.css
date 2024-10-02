@@ -1,0 +1,120 @@
+*{
+    font-family: 'Audiowide', cursive;
+}
+.resultados {
+    background-image: linear-gradient(to bottom, #017CAF, #003449);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 170px;
+    padding-top: 100px;
+    height: auto;
+}
+
+.main-resultados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #d1cfcffa;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.titulo-resultados {
+    font-size: 50px;
+    color: hsl(198, 87%, 28%);
+    height: 70px;
+    width: 700px;
+    border-bottom: 2px solid  #096186;
+}
+
+#texto-resultados {
+    color: rgba(113, 112, 112, 0.74);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.link-home {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #006B98;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-top: 50px;
+ }
+
+ /* Media Queries */
+ 
+ /* Telas pequenas (smartphones, menos de 600px) */
+@media (max-width: 600px) {
+    .resultados {
+        padding: 22px;
+        padding-top: 100px;
+        height: 100vh;
+    }
+
+    .main-resultados {
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+    }
+
+    .titulo-resultados {
+        font-size: 30px;
+        width: auto;
+        height: 60px;
+    }
+
+    #texto-resultados {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .link-home {
+        width: 200px;
+        font-size: 18px;
+    }
+}
+
+
+/* Telas médias (tablets, de 600px a 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .resultados {
+        padding: 82px;
+        padding-top: 100px;
+        height: 100vh;
+    }
+
+    .main-resultados {
+        height: 350px;
+        width: 470px;
+        padding: 30px;
+    }
+
+    .titulo-resultados {
+        font-size: 40px;
+        width: auto;
+        height: auto;
+    }
+
+    #texto-resultados {
+        font-size: 25px;
+        margin-top: 70px;
+    }
+
+    .link-home {
+        width: 200px;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,312 @@
+.introducao-voluntariado {
+    background-image: url(../img/voluntadiado.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 590px;
+    color: white;
+}
+
+.titulo-introducao {
+    font-size: 40px;
+    margin-top: 70px;
+    color: white;
+}
+
+.introducao-voluntariado p {
+    margin: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.trabalhos-voluntario {
+    background: linear-gradient(to right, #006B98, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-trabalhos {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.item1 {
+    background-image: linear-gradient(to top, #3EB7EA, #B6E9FF);
+}
+
+.item2 {
+    background-image: linear-gradient(to top, #64CDFA, #B6E9FF);
+}
+
+.item3 {
+    background-image: linear-gradient(to bottom, #84B8CD, #64CDFA);
+}
+
+.item4 {
+    background-image: linear-gradient(to top, #017CAF, #B6E9FF);
+}
+
+.item5 {
+    background-image: linear-gradient(to right, #64CDFA, #B6E9FF);
+}
+
+.item6 {
+    background-image: linear-gradient(to top, #64CDFA, #8BB8CB);
+}
+
+.item7 {
+    background-image: linear-gradient(to top, #64CDFA, #b5def0);
+}
+
+.item8 {
+    background-image: linear-gradient(to top, #72B5D2, #B6E9FF);
+}
+
+.item9 {
+    background-image: linear-gradient(to right, #64CDFA, #B6E9FF);
+}
+
+.item10 {
+    background-image: linear-gradient(to top, #70bfe1, #B6E9FF);
+}
+
+.item11 {
+    background-image: linear-gradient(to top, #64CDFA, #B6E9FF);
+}
+
+.item12 {
+    background-image: linear-gradient(to top, #3baedf, #B6E9FF);
+}
+
+.logo-meses {
+    background: linear-gradient(to right, #017CAF, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 18px;
+    padding: 15px;
+    position: absolute;
+    left: 10px;
+}
+
+.meses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003449;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 250px;
+    height: 100px;
+    margin-top: 30%;
+}
+
+.praia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003449;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+}
+
+.info-voluntariado {
+    color: rgba(0, 0, 0, 0.475);
+    font-size: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.parte-voluntariado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.titulo-voluntariado {
+    background: linear-gradient(to right, #006B98, #003449);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 40px;
+}
+
+#botao-voluntariado {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.link-voluntariado{
+    background-color: #0278AA;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    width: 200px;
+    font-size: 25px;
+}
+
+/* Media Queries */
+
+/* Telas pequenas (smartphones, menos de 600px) */
+@media (max-width: 600px) {
+
+    .introducao-voluntariado {
+        width: auto;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .titulo-introducao {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .introducao-voluntariado p {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .trabalhos-voluntario {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .container-trabalhos {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        justify-content: center;
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .logo-meses {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        padding: 2px;
+    }
+
+    .meses {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .info-voluntariado {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .titulo-voluntariado {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .link-voluntariado {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    #botao-voluntariado {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Telas médias (tablets, de 600px a 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .introducao-voluntariado {
+        height: auto;
+    }
+
+    .titulo-introducao {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .introducao-voluntariado p {
+        margin: 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .trabalhos-voluntario {
+        font-size: 32px;
+        padding: 25px;
+    }
+
+    .container-trabalhos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item {
+        width: 300px;
+        height: 300px;
+    }
+
+    .logo-meses {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .meses {
+        font-size: 25px;
+        width: 200px;
+        height: 80px;
+        margin-top: 25%;
+    }
+
+    .info-voluntariado {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .titulo-voluntariado {
+        font-size: 32px;
+    }
+
+    .link-voluntariado {
+        width: 180px;
+        font-size: 20px;
+    }
+
+    #botao-voluntariado {
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+}
+
